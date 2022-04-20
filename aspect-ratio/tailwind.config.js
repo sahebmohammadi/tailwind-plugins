@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       padding: {
-        "1/3": "33.33334%",
-        "2/3": "66.66667%",
+        "2/3": "66.666667%",
+        "1/3": "33.33333%",
       },
       width: {
         22: "5.5rem",
@@ -15,5 +15,8 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@tailwindcss/aspect-ratio")],
+  plugins: [
+    require("@tailwindcss/aspect-ratio"),
+    // ...
+  ],
 };
